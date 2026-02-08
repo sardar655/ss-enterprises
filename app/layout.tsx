@@ -1,5 +1,4 @@
 <h1>TEST</h1>
-
 export const metadata = {
   title: "Sardar Enterprises",
   description: "Digital Marketing Website",
@@ -12,6 +11,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+<meta name="google-site-verification" content="v9WhtkRtfabDLmhVDl-JlY3gWwcOCPYYQoGYZffoL-UERE" />
+</head>
+
+      
       <body>
 
         <nav style={{ padding: 15, background: "#0b2c4d" }}>
