@@ -1,43 +1,46 @@
-<<<<<<< HEAD
 export default function ContactPage() {
   return (
-    <div style={{ padding: 40 }}>
+    <div style={{ padding: 40, maxWidth: 600, margin: "auto" }}>
       <h1>Contact Us</h1>
 
       <p>Get in touch with Sardar Enterprises</p>
 
       <form>
-        <input placeholder="Your Name" /><br /><br />
-        <input placeholder="Your Email" /><br /><br />
-        <textarea placeholder="Your Message"></textarea><br /><br />
+        <input
+          type="text"
+          placeholder="Your Name"
+          style={{ width: "100%", padding: 10, marginBottom: 10 }}
+        />
 
-        <button>Send Message</button>
+        <input
+          type="email"
+          placeholder="shaiksardar78600@gmail.com"
+          style={{ width: "100%", padding: 10, marginBottom: 10 }}
+        />
+
+        <textarea
+          placeholder="Your Message"
+          style={{ width: "100%", padding: 10, marginBottom: 10 }}
+          rows={5}
+        />
+
+        <button
+          type="submit"
+          style={{
+            background: "#0b2c4d",
+            color: "white",
+            padding: "10px 20px",
+            border: "none",
+          }}
+        >
+          Send Message
+        </button>
       </form>
 
-      <p>📞 Phone: +91XXXXXXXXXX</p>
-      <p>📧 Email: yourmail@gmail.com</p>
+      <hr style={{ margin: "30px 0" }} />
+
+      <p>📞 Phone: +91 6301284479</p>
+      <p>📧 Email: shaiksardar78600@gmail.com</p>
     </div>
   );
 }
-=======
-export default function ContactPage() {
-  return (
-    <div style={{ padding: 40 }}>
-      <h1>Contact Us</h1>
-
-      <p>Get in touch with Sardar Enterprises</p>
-
-      <form>
-        <input placeholder="Your Name" /><br /><br />
-        <input placeholder="Your Email" /><br /><br />
-        <textarea placeholder="Your Message"></textarea><br /><br />
-
-        <button>Send Message</button>
-      </form>
-
-      <p>📞 Phone: +91XXXXXXXXXX</p>
-      <p>📧 Email: yourmail@gmail.com</p>
-    </div>
-  );
-}
->>>>>>> 6b9e91fd479dd40132cb5355396ec0d10b37f0aa
