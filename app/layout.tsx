@@ -1,11 +1,6 @@
-<<<<<<< HEAD
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-=======
-<h1>TEST</h1>
-export const metadata = {
->>>>>>> 6b9e91fd479dd40132cb5355396ec0d10b37f0aa
   title: "Sardar Enterprises",
   description: "Digital Marketing Website",
 };
@@ -18,17 +13,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-<<<<<<< HEAD
-        <meta name="google-site-verification" content="v9WhtkRtfabDLmhVDl-JlY3gWwcOCPYYQoGYZffoL-U/>
-        />
+        <<meta name="google-site-verification" content="v9WhtkRtfabDLmhVDl-JlY3gWwcOCPYYQoGYZffoL-U" />
       </head>
 
-=======
-<meta name="google-site-verification" content="v9WhtkRtfabDLmhVDl-JlY3gWwcOCPYYQoGYZffoL-UERE" />
-</head>
-
-      
->>>>>>> 6b9e91fd479dd40132cb5355396ec0d10b37f0aa
       <body>
 
         <nav style={{ padding: 15, background: "#0b2c4d" }}>
