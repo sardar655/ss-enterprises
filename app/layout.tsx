@@ -24,6 +24,7 @@ export default function RootLayout({
         </nav>
 <a href="/products" style={{ color: "white", marginRight: 15 }}>Products</a>
 
+
         {children}
       </body>
     </html>
